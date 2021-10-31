@@ -66,29 +66,10 @@ li:first-letter {
 }
 
 .weather-temperature .active {
-  color: #fd7e14;
+  color: #161513;
   cursor: default;
 }
 
 .weather-temperature .active:hover {
   text-decoration: none;
-}
-
-.weather-forecast {
-  margin-top: 20px;
-  text-align: center;
-  color: #fd7e14;
-}
-
-.weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.5;
-}
-
-.weather-forecast-temperature-min {
-  opacity: 0.5;
-}
-
-.weather-forecast-temperatures {
-  font-size: 13px;
 }
