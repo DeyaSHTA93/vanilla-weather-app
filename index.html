@@ -13,7 +13,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <link rel="stylesheet" href="src/style.css" />
-    <title>Weather Forecast App</title>
+    <title>Weather App</title>
   </head>
   <body>
     <div class="container">
@@ -34,7 +34,7 @@
                 <input
                   type="submit"
                   value="Search"
-                  class="btn btn-outline-dark"
+                  class="btn btn-primary w-100"
                 />
               </div>
             </div>
@@ -53,10 +53,8 @@
                 <div class="float-left">
                   <strong id="temperature"></strong>
                   <span class="units">
-                    <a href="#" id="celsius-link" class="active"> °C </a>
-                    |
-                    <a href="#" id="fahrenheit-link" class="active"> </a>
-                    °F
+                    <a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a>
                   </span>
                 </div>
               </div>
@@ -68,12 +66,12 @@
               </ul>
             </div>
           </div>
+          <div class="weather-forecast" id="forecast"></div>
         </div>
         <small>
           <a
-            href="https://github.com/DeyaSHTA93/weatherapp7.git"
+            href="https://github.com/DeyaSHTA93/week7project-weatherapp.git"
             target="_blank"
-            style="color: #ec6e4c"
             >Open-source code</a
           >
           by Deya Shrestha
